@@ -5,6 +5,29 @@
             "complex_modifications": {
                 "rules": [
                     {
+                        "description": "Change built-in Fn next to the left arrow to right Option",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "identifiers": [{ "is_built_in_keyboard": true }],
+                                        "type": "device_if"
+                                    },
+                                    {
+                                        "type": "event_changed_if",
+                                        "value": false
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "fn",
+                                    "modifiers": { "optional": ["any"] }
+                                },
+                                "to": [{ "key_code": "right_option" }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "Eisuu: toggle Chinese and English input sources",
                         "manipulators": [
                             {

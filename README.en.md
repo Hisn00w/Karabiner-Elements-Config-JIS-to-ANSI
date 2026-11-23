@@ -47,7 +47,9 @@ The following table describes the intended output for this keycap arrangement:
 | `]` position | `\` |
 | `Shift + ]` | `|` |
 | Original JIS `ろ` position | `Fn` |
+| Original Fn key immediately to the left of the Left Arrow key | Right Option (⌥, `right_option`) |
 | `英数` | `Control + Space`, switching between ABC English and Simplified Pinyin |
+| `かな` key immediately to the right of the Space bar | Native Kana key (`japanese_kana`) |
 
 “Position” refers to the physical switch location, not the legend printed on the keycap. The physical position that now has the `` ` / ~ `` keycap was originally the JIS `¥` position; the position with the `\ / |` keycap was originally the JIS `]` position; and the position with the Fn keycap was originally the JIS `ろ` position.
 
